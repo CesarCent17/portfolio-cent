@@ -16,6 +16,8 @@
 
 .container-header{
   background-color: #f5fcff;
+  background-image: linear-gradient(to bottom, #e1d3ee, #f5fcff, #f5fcff, #f5fcff);
+  // ddcbee
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -81,15 +83,10 @@
   text-align: center;
   text-decoration: none;
   font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-// 2f7de3
-// .icon-background {
-//   background-image: url('../../../assets/svg/browser_icon_1.svg');
-//   background-repeat: no-repeat;
-//   width: 16rem;
-//   height: 12rem;
-//   background-position: -5rem -5rem;
-//   z-index: 999;
-//   position: relative;
-// }
+.contact:hover {
+  background-color: #1f5bc0;
+  color: #ffffff;
+}

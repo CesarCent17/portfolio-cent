@@ -1,7 +1,7 @@
-<nav class="navbar">
+<nav class="navbar" [ngClass]="{'scrolled': isScrolled}">
   <ul class="nav-list">
     <li class="nav-item">
-      <a routerLink="/">Inicio</a>
+      <a href="home">Inicio</a>
     </li>
     <li class="nav-item">
       <a routerLink="/proyectos">Proyectos</a>
@@ -10,7 +10,7 @@
       <a routerLink="/acerca">Acerca de mí</a>
     </li>
     <li class="nav-item">
-      <a routerLink="/contacto">Contacto</a>
+      <a href="#contact">Contacto</a>
     </li>
   </ul>
 
