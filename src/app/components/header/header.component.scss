@@ -1,0 +1,95 @@
+.name h1 {
+  font-weight: 900;
+  font-size: 4rem;
+  color: #2f7de3;
+}
+
+.jobtitle h2 {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.presentation h3{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.container-header{
+  background-color: #f5fcff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.column-content{
+  // margin-bottom: 0.6rem;
+  .contact{
+    margin-top: 1rem;
+  }
+}
+
+
+.column.photo{
+  padding-left: 8rem;
+}
+
+.card {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 3%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 80%;
+  border-radius: 3%;
+  object-fit: cover;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  p {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.contact {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  background-color: #2f7de3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+// 2f7de3
+// .icon-background {
+//   background-image: url('../../../assets/svg/browser_icon_1.svg');
+//   background-repeat: no-repeat;
+//   width: 16rem;
+//   height: 12rem;
+//   background-position: -5rem -5rem;
+//   z-index: 999;
+//   position: relative;
+// }

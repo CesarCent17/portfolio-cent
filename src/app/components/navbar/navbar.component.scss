@@ -1,0 +1,44 @@
+.navbar {
+  background-color: white;
+  color: #2f7de3;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-item a {
+  color: #2f7de3;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.cv-circle {
+  background-color: #2f7de3;
+  color: white;
+  border-radius: 50%; /* Crea un círculo */
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
