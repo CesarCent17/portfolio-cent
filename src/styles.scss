@@ -73,3 +73,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; /* Color del thumb al pasar el ratón por encima */
 }
+
+body{
+  background-image: linear-gradient(to left, #f6edff, #f5fcff, #e1d3ee, #f5fcff);
+}

@@ -15,8 +15,10 @@
 }
 
 .container-header{
-  background-color: #f5fcff;
-  background-image: linear-gradient(to bottom, #e1d3ee, #f5fcff, #f5fcff, #f5fcff);
+  // background-color: #f5fcff;
+  // background-image: linear-gradient(to left, #f6edff, #f5fcff, #e1d3ee, #f5fcff);
+
+  // background-image: linear-gradient(to bottom, #e1d3ee, #f5fcff, #f5fcff, #f5fcff);
   // ddcbee
   height: 100vh;
   display: flex;
@@ -46,6 +48,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card img {
