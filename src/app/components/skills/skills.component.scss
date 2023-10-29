@@ -1,0 +1,50 @@
+.container-skills{
+  background-color: #4a4a68;
+  background-color: white;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title-skills{
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 2rem;
+  color: #2f7de3;
+  padding-bottom: 1rem;
+
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Utiliza espacio entre los elementos */
+
+  // justify-content: flex-start;
+  align-items: center;
+}
+
+.skills-list li {
+  flex: 0 0 calc(20% - 1rem);
+  margin: 0.5rem;
+}
+
+
+.row-skills {
+  padding-top: 4rem;
+  width: 70rem;
+}
+
+li{
+  font-size: 1rem;
+}
