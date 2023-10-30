@@ -99,6 +99,26 @@
   color: #ffffff;
 }
 
+.download-cv{
+  margin-left: 1rem;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid #323d52;
+  border-radius: 1.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+// .download-cv:hover {
+//   background-color: #1f5bc0;
+//   color: #ffffff;
+// }
+
 
 @media (max-width: 480px) {
 
@@ -145,4 +165,9 @@
     overflow-y: auto;
     width: 480px;
   };
+
+  .download-cv{
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
 }
