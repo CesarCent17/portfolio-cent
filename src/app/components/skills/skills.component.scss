@@ -78,3 +78,43 @@
 // li{
 //   font-size: 1rem;
 // }
+
+
+@media (max-width: 480px) {
+  .container-skills {
+    display: flex;
+    align-items: center;
+    width: 480px;
+    padding: 1rem;
+  }
+
+  .title-skills {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .icon-container {
+    width: 3rem; /* Reduz el tamaño de los iconos */
+    height: 3rem;
+  }
+
+  .icon-container p {
+    display: none;
+  }
+
+  .skills-list li {
+    flex: 0 0 calc(30% - 1rem);
+    text-align: center;
+  }
+
+  .row-skills {
+    width: 100%;
+    padding: 0;
+  }
+
+}
+

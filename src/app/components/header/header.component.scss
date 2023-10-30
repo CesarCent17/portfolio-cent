@@ -98,3 +98,51 @@
   background-color: #1f5bc0;
   color: #ffffff;
 }
+
+
+@media (max-width: 480px) {
+
+  .column {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .name h1 {
+    font-size: 2.5rem;
+  }
+
+  .jobtitle h2 {
+    font-size: 2.5rem;
+  }
+
+  .presentation h3 {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .column.photo {
+    padding: 0;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .card img {
+    max-width: 100%;
+  }
+
+  .container-header{
+    background-color: #e1d3ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    width: 480px;
+  };
+}

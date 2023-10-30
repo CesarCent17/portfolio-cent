@@ -31,7 +31,6 @@
 }
 
 .img-1{
-  /* Estilos para la imagen, ajusta según sea necesario */
   width: 100%;
   height: 100%;
   background-image: url('../../../assets/jpg/moduleadmin.png');
@@ -40,7 +39,6 @@
 }
 
 .img-2{
-  /* Estilos para la imagen, ajusta según sea necesario */
   width: 100%;
   height: 100%;
   background-image: url('../../../assets/jpg/apimoduleadmin.png');
@@ -49,7 +47,6 @@
 }
 
 .img-3{
-  /* Estilos para la imagen, ajusta según sea necesario */
   width: 100%;
   height: 100%;
   background-image: url('../../../assets/jpg/spotifygold.png');
@@ -104,4 +101,52 @@
 
 .technology-button{
   padding: 0.5rem;
+}
+
+
+@media (max-width: 480px) {
+  .container-projects{
+    background-color: #e1d3ee;
+    width: 480px;
+    // background-color: red;
+  }
+
+  .section-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 300px;
+    margin: 1rem 0;
+  }
+
+  .img-1, .img-2, .img-3 {
+    width: 100%;
+    height: 50%;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-content {
+    font-size: 0.9rem;
+    height: auto;
+  }
+
+  .container-title {
+    font-size: 2rem;
+  }
+
+  .technology-button button {
+    font-size: 0.9rem;
+  }
 }
