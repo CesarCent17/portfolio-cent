@@ -30,11 +30,29 @@
   transform: scale(1.1);
 }
 
-.img {
+.img-1{
   /* Estilos para la imagen, ajusta según sea necesario */
   width: 100%;
   height: 100%;
   background-image: url('../../../assets/jpg/moduleadmin.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2{
+  /* Estilos para la imagen, ajusta según sea necesario */
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../assets/jpg/apimoduleadmin.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.img-3{
+  /* Estilos para la imagen, ajusta según sea necesario */
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../assets/jpg/spotifygold.png');
   background-size: cover;
   background-position: center;
 }
@@ -66,4 +84,24 @@
   margin: 3rem;
   font-weight: 900;
   font-size: 3rem;
+}
+
+.technology-button button{
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  background-color: #f4f4f4;
+  color: rgb(135, 135, 135);
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.6rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 0.5rem;
+}
+
+.technology-button{
+  padding: 0.5rem;
 }
