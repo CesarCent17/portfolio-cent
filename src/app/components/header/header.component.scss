@@ -71,7 +71,7 @@
 
 .description {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-top: 1rem;
   p {
     margin-bottom: 0.3rem;
@@ -82,23 +82,27 @@
   font-family: 'Oswald', sans-serif;
   display: inline-block;
   background-color: #2f7de3;
+  background: linear-gradient(to left, #2f7de3, #0471ff, #001eff);
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 1.6rem;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
   font-weight: 400;
-  transition: background-color 0.3s, color 0.3s;
+  // transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.2s, background 0.3s;
+  box-shadow: 0 5px 25px #9aa6ff;
 }
 
 .contact:hover {
   background-color: #1f5bc0;
   color: #ffffff;
+  transform: translateY(-2px);
+  // background: linear-gradient(to bottom, #1f5bc0, #5395f7);
 }
-
 .download-cv{
   margin-left: 1rem;
   font-family: 'Oswald', sans-serif;
@@ -108,16 +112,19 @@
   border: 1px solid #323d52;
   border-radius: 1.6rem;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
   font-weight: 400;
+  transition: transform 0.2s, background 0.3s;
+  // box-shadow: 0 5px 25px #afafaf;
 }
 
-// .download-cv:hover {
-//   background-color: #1f5bc0;
-//   color: #ffffff;
-// }
+.download-cv:hover {
+  transform: translateY(-2px);
+  // background: linear-gradient(to left, #2f7de3, #0471ff, #001eff);
+  // color: #ffffff;
+}
 
 
 @media (max-width: 480px) {
@@ -139,8 +146,8 @@
     font-size: 1.5rem;
   }
 
-  .description {
-    font-size: 1rem;
+  .description p{
+    font-size: 1.2rem;
   }
 
   .column.photo {
@@ -169,5 +176,17 @@
   .download-cv{
     margin-left: 0rem;
     margin-top: 1rem;
+  }
+}
+
+.social-networks
+{
+  margin-top: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  .icon-container img{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
   }
 }
